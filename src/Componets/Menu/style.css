@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: 0;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+.navbar{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 90px;
+    background: rgb(176,128,117);
+    background: linear-gradient(80deg, rgba(176,128,117,0.30015756302521013) 1%, rgba(0,0,0,0.3029586834733894) 23%, rgba(18,13,12,0.30015756302521013) 87%, rgba(176,128,117,0.3029586834733894) 100%);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo i {
+    color: #0aa5ff;
+    font-size: 22px;
+}
+.navbar .logo a{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 12px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.menu-link {
+    display: flex;
+    gap: 24px;
+    border-right:  1px solid #999999;
+    padding-inline: 24px;
+}
+.menu-link a{
+    font-weight: 500;
+    color: #fff;
+    padding: 8px 16px;
+}
+.menu-link a:hover{
+    color: #f87428;
+    border-bottom: 1px solid #f87428;
+    transition: 0.2s;
+}
+.contato{
+    font-weight: 500;
+    padding: 12px 22px;
+    background-color:  transparent;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #f87428;
+    transition: 0.2s;
+}
+.contato:hover{
+    background-color: #f87428;
+    color: #fff;
+}
+.menu-btn{
+    font-size: 32px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+@media (max-width:48rem){
+    .menu{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
